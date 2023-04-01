@@ -7,15 +7,15 @@
     <mat-icon *ngIf="!sidenav.opened"> menu </mat-icon>
     <mat-icon *ngIf="sidenav.opened"> close </mat-icon>
   </button>
-  HOLY ANGEL UNIVERSITY
+  Rave Apparel
 </mat-toolbar>
 
 <mat-sidenav-container>
   <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
     <img class="avatar mat-elevation-z8" src="assets/hau-logo.png" />
 
-    <h4 class="name">Holy Angel University</h4>
-    <p class="designation">Private School</p>
+    <h4 class="name">Rave Apparel</h4>
+    <p class="designation">Online Shop</p>
 
     <mat-divider></mat-divider>
 
@@ -25,18 +25,22 @@
     </button>
     <button mat-button class="menu-button" routerLink="/table">
       <mat-icon style="color: white">person</mat-icon>
-      <span style="color: white">Academic Program</span>
-    </button>
-    <button mat-button class="menu-button" routerLink="/form">
-      <mat-icon style="color: white">info</mat-icon>
-      <span style="color: white">Form</span>
+      <span style="color: white">Selling Items</span>
     </button>
 
     <mat-divider></mat-divider>
 
+    <button mat-button class="menu-button" routerLink="/form">
+      <mat-icon style="color: white">help</mat-icon>
+      <span style="color: white">My Account</span>
+    </button>
     <button mat-button class="menu-button" routerLink="/schedule">
       <mat-icon style="color: white">help</mat-icon>
-      <span style="color: white">Schedule</span>
+      <span style="color: white">Notifications</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/schedule">
+      <mat-icon style="color: white">help</mat-icon>
+      <span style="color: white">Settings</span>
     </button>
   </mat-sidenav>
   <mat-sidenav-content>
