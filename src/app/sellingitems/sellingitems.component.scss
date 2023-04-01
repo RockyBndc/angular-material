@@ -1,6 +1,6 @@
 body {
   background-image: url('https://stackblitz.com/files/angular-kyabpa-uhbztw/github/RockyBndc/angular-material/stash-2023-01-04_19-01-49/src/assets/body-bg.png');
-  
+
   /* Full height */
   height: 75rem;
 
@@ -9,10 +9,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#sortby{
+  margin-top: 15px;
+}
 #sortbar button {
   color: #84592d;
   background: transparent;
   border: solid 1px #84592d;
+  height: 55px;
   padding: 3px 3px;
   width: 150px;
 }
@@ -26,7 +30,7 @@ body {
 
 #sortbar {
   background-color: #84592d2a;
-  padding: 20px;
+  padding: 10px 0px;
 }
 .example-form {
   min-width: 150px;
@@ -41,7 +45,7 @@ body {
 h5 {
   font-size: 18px;
 }
-p{
+p {
   color: #84592d;
   font-weight: 400;
 }
@@ -50,8 +54,8 @@ mat-card button {
   color: #84592d;
   background: transparent;
   border: solid 1px #84592d;
-  padding: 3px 3px;
-  width: 110px;
+  padding: 4px 4px;
+  width: 130px;
   position: absolute;
   right: 15px;
   bottom: 15px;

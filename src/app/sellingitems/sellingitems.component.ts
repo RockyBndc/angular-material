@@ -16,8 +16,8 @@ export interface Prices {
 })
 export class SellingitemsComponent implements OnInit {
   price: Prices[] = [
-    {value: 'lth-0', viewValue: 'Low to High'},
-    {value: 'htl-1', viewValue: 'High to Low'},
+    { value: 'lth-0', viewValue: 'Low to High' },
+    { value: 'htl-1', viewValue: 'High to Low' },
   ];
   myControl = new FormControl<string | User>('');
   options: User[] = [{ name: 'Dress' }, { name: 'Tops' }, { name: 'Jumpsuit' }];
