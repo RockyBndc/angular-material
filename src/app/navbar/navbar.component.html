@@ -1,0 +1,47 @@
+<mat-toolbar class="mat-elevation-z8">
+  <button
+    mat-icon-button
+    *ngIf="sidenav.mode === 'over'"
+    (click)="sidenav.toggle()"
+  >
+    <mat-icon *ngIf="!sidenav.opened"> menu </mat-icon>
+    <mat-icon *ngIf="sidenav.opened"> close </mat-icon>
+  </button>
+  HOLY ANGEL UNIVERSITY
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
+    <img class="avatar mat-elevation-z8" src="assets/hau-logo.png" />
+
+    <h4 class="name">Holy Angel University</h4>
+    <p class="designation">Private School</p>
+
+    <mat-divider></mat-divider>
+
+    <button mat-button class="menu-button" routerLink="/card">
+      <mat-icon style="color: white">home</mat-icon>
+      <span style="color: white">Home</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/table">
+      <mat-icon style="color: white">person</mat-icon>
+      <span style="color: white">Academic Program</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/form">
+      <mat-icon style="color: white">info</mat-icon>
+      <span style="color: white">Form</span>
+    </button>
+
+    <mat-divider></mat-divider>
+
+    <button mat-button class="menu-button" routerLink="/schedule">
+      <mat-icon style="color: white">help</mat-icon>
+      <span style="color: white">Schedule</span>
+    </button>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="content mat-elevation-z8">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

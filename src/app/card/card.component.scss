@@ -1,0 +1,68 @@
+mat-grid-tile {
+  border: 2px solid rgb(114, 14, 14);
+}
+
+.container img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.heroSection {
+  height: 60%;
+  background: url('https://stackblitz.com/storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBem10QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--130047779b83174c2e45e7ae9c66db20e556ace7/header.png')
+    center;
+  background-size: cover;
+}
+
+header {
+  overflow: hidden;
+  padding: 10px;
+}
+
+.heroText {
+  text-align: center;
+  color: #fff;
+  margin-top: 150px;
+}
+
+.heroText h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.heroText h2 {
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.heroText button {
+  color: #fff;
+  background: transparent;
+  border: solid 1px #fff;
+  padding: 20px 20px;
+}
+
+.heroText button:hover {
+  cursor: pointer;
+  background: #84592d;
+  border: solid 1px #84592d;
+  color: #fff;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image-1 {
+  background-image: url('https://stackblitz.com/storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBenF0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0c50a4ead238d3aefc9e76d718d348d9d4923253/seller-1.jpg');
+  background-size: cover;
+}
+.example-header-image-2 {
+  background-image: url('https://stackblitz.com/storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBenV0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9576dae44f0cdffb86bf88988ddde21fe324509a/seller-2.jpg');
+  background-size: cover;
+}
+.example-header-image-3 {
+  background-image: url('https://stackblitz.com/storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBenl0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b07c392b4612ce4bab20aa1c5d96a3450facf085/seller-3.jpg');
+  background-size: cover;
+}

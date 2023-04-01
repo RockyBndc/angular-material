@@ -1,0 +1,29 @@
+.example-card {
+  max-width: 400px;
+  margin-bottom: 8px;
+  border: 2px solid;
+}
+
+.example-card img {
+  border-radius: 15px;
+  padding: 10px;
+  object-fit: contain;
+}
+
+.container {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+p {
+  text-align: center;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
