@@ -23,6 +23,7 @@ import { TableComponent } from './table/table.component';
 import { FormComponent } from './form/form.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { SellingitemsComponent } from './sellingitems/sellingitems.component';
+import { CartComponent } from './cart/cart.component';
 
 const appRoute: Routes = [
   { path: 'card', component: CardComponent },
@@ -30,6 +31,7 @@ const appRoute: Routes = [
   { path: 'form', component: FormComponent },
   { path: 'schedule', component: ScheduleComponent },
   { path: 'sellingitems', component: SellingitemsComponent },
+  { path: 'cart', component: CartComponent },
 ];
 
 @NgModule({
@@ -41,6 +43,7 @@ const appRoute: Routes = [
     FormComponent,
     ScheduleComponent,
     SellingitemsComponent,
+    CartComponent
   ],
   imports: [
     BrowserAnimationsModule,
