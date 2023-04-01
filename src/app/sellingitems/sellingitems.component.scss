@@ -1,3 +1,65 @@
-body{
+body {
+  background-image: url('https://stackblitz.com/files/angular-kyabpa-uhbztw/github/RockyBndc/angular-material/stash-2023-01-04_19-01-49/src/assets/body-bg.png');
   
+  /* Full height */
+  height: 75rem;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#sortbar button {
+  color: #84592d;
+  background: transparent;
+  border: solid 1px #84592d;
+  padding: 3px 3px;
+  width: 150px;
+}
+
+#sortbar button:hover {
+  cursor: pointer;
+  background: #84592d;
+  border: solid 1px #84592d;
+  color: #fff;
+}
+
+#sortbar {
+  background-color: #84592d2a;
+  padding: 20px;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+h5 {
+  font-size: 18px;
+}
+p{
+  color: #84592d;
+  font-weight: 400;
+}
+
+mat-card button {
+  color: #84592d;
+  background: transparent;
+  border: solid 1px #84592d;
+  padding: 3px 3px;
+  width: 110px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+mat-card button:hover {
+  cursor: pointer;
+  background: #84592d;
+  border: solid 1px #84592d;
+  color: #fff;
 }

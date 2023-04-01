@@ -13,6 +13,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatSelectModule } from '@angular/material/select';
 
 import { MatButtonModule } from '@angular/material/button';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -38,9 +40,11 @@ const appRoute: Routes = [
     TableComponent,
     FormComponent,
     ScheduleComponent,
+    SellingitemsComponent,
   ],
   imports: [
     BrowserAnimationsModule,
+    MatAutocompleteModule,
     BrowserModule,
     FormsModule,
     HttpClientModule,
@@ -54,6 +58,7 @@ const appRoute: Routes = [
     MatListModule,
     MatGridListModule,
     RouterModule.forRoot(appRoute),
+    MatSelectModule,
   ],
   bootstrap: [TabGroupBasicExample],
 })
