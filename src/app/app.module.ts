@@ -20,12 +20,14 @@ import { CardComponent } from './card/card.component';
 import { TableComponent } from './table/table.component';
 import { FormComponent } from './form/form.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { SellingitemsComponent } from './sellingitems/sellingitems.component';
 
 const appRoute: Routes = [
   { path: 'card', component: CardComponent },
   { path: 'table', component: TableComponent },
   { path: 'form', component: FormComponent },
   { path: 'schedule', component: ScheduleComponent },
+  { path: 'sellingitems', component: SellingitemsComponent },
 ];
 
 @NgModule({
